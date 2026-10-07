@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "employee-tracking-client-side-solution",
+    "id": "d4aef0ac-50b8-4c93-905a-39b7380f7be3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "employeeTracking description"
+      },
+      "longDescription": {
+        "default": "employeeTracking description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "employee-tracking Feature",
+        "description": "The feature that activates elements of the employee-tracking solution.",
+        "id": "63c26880-17a3-44f1-a335-2f8ba7473032",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/employee-tracking.sppkg"
+  }
+}

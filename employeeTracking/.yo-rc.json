@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "employeeTracking",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "EmployeeTracking",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "employee-tracking",
+    "libraryId": "d4aef0ac-50b8-4c93-905a-39b7380f7be3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "employeeTracking description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

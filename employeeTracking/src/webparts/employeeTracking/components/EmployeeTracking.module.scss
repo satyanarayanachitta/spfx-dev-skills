@@ -1,0 +1,68 @@
+.employeeTracking {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.header p {
+  margin: 4px 0 0;
+}
+
+.loading,
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 120px;
+  text-align: center;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  min-width: 760px;
+}
+
+.rowActions {
+  display: flex;
+  gap: 4px;
+}
+
+.error {
+  padding: 12px;
+  border: 1px solid var(--colorPaletteRedBorder1);
+  border-radius: 4px;
+  color: var(--colorPaletteRedForeground1);
+  background: var(--colorPaletteRedBackground1);
+}
+
+.formFields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  padding: 4px 0;
+}
+
+@media (max-width: 520px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .formFields {
+    grid-template-columns: 1fr;
+  }
+}
